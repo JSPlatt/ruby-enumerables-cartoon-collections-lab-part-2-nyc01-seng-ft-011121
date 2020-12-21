@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 
-nswer = false
+answer = false
   long_planteer_calls.each do |call|
     if call.length > 4
       answer = true
