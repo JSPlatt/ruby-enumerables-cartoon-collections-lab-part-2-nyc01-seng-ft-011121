@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
 
-  potentially_cheesy_items.find do |planeteer_calls|
+  valid_calls.find do |planeteer_calls|
     valid_calls.include?(planeteer_calls)
   end
 end	
